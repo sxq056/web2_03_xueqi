@@ -1,0 +1,158 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'sass' ]
+2 info using npm@2.14.12
+3 info using node@v4.3.2
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'sass', null ]
+7 verbose cache add spec sass
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'sass',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'sass',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed sass@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for sass
+11 info addNameTag [ 'sass', 'latest' ]
+12 silly mapToRegistry name sass
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/sass
+16 verbose addNameTag registry:https://registry.npmjs.org/sass not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/sass
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 18:40:25
+20 verbose request id 1cca560f89b614ae
+21 verbose etag W/"350f928c655a56185450ec7b358e4e85"
+22 verbose lastModified Sat, 08 Feb 2020 02:33:20 GMT
+23 http request GET https://registry.npmjs.org/sass
+24 http 304 https://registry.npmjs.org/sass
+25 verbose headers { date: 'Mon, 10 Feb 2020 23:40:25 GMT',
+25 verbose headers   connection: 'keep-alive',
+25 verbose headers   'set-cookie': [ '__cfduid=d64ba64df37b8cf50f2c3c99808f9bb791581378025; expires=Wed, 11-Mar-20 23:40:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+25 verbose headers   'cf-ray': '5631ed94f88b9258-EWR',
+25 verbose headers   age: '1997',
+25 verbose headers   'cache-control': 'public, max-age=300',
+25 verbose headers   etag: '"350f928c655a56185450ec7b358e4e85"',
+25 verbose headers   'last-modified': 'Sat, 08 Feb 2020 02:33:20 GMT',
+25 verbose headers   vary: 'Accept-Encoding',
+25 verbose headers   'cf-cache-status': 'HIT',
+25 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+25 verbose headers   server: 'cloudflare' }
+26 silly get cb [ 304,
+26 silly get   { date: 'Mon, 10 Feb 2020 23:40:25 GMT',
+26 silly get     connection: 'keep-alive',
+26 silly get     'set-cookie': [ '__cfduid=d64ba64df37b8cf50f2c3c99808f9bb791581378025; expires=Wed, 11-Mar-20 23:40:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+26 silly get     'cf-ray': '5631ed94f88b9258-EWR',
+26 silly get     age: '1997',
+26 silly get     'cache-control': 'public, max-age=300',
+26 silly get     etag: '"350f928c655a56185450ec7b358e4e85"',
+26 silly get     'last-modified': 'Sat, 08 Feb 2020 02:33:20 GMT',
+26 silly get     vary: 'Accept-Encoding',
+26 silly get     'cf-cache-status': 'HIT',
+26 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+26 silly get     server: 'cloudflare' } ]
+27 verbose etag https://registry.npmjs.org/sass from cache
+28 verbose get saving sass to /Users/tina/.npm/registry.npmjs.org/sass/.cache.json
+29 silly addNameTag next cb for sass with tag latest
+30 silly addNamed sass@1.25.0
+31 verbose addNamed "1.25.0" is a plain semver version for sass
+32 silly cache afterAdd sass@1.25.0
+33 verbose afterAdd /Users/tina/.npm/sass/1.25.0/package/package.json not in flight; writing
+34 verbose afterAdd /Users/tina/.npm/sass/1.25.0/package/package.json written
+35 silly install resolved [ { name: 'sass',
+35 silly install resolved     description: 'A pure JavaScript implementation of Sass.',
+35 silly install resolved     license: 'MIT',
+35 silly install resolved     bugs: { url: 'https://github.com/sass/dart-sass/issues' },
+35 silly install resolved     homepage: 'https://github.com/sass/dart-sass',
+35 silly install resolved     repository:
+35 silly install resolved      { type: 'git',
+35 silly install resolved        url: 'git+https://github.com/sass/dart-sass.git' },
+35 silly install resolved     author:
+35 silly install resolved      { name: 'Natalie Weizenbaum',
+35 silly install resolved        email: 'nweiz@google.com',
+35 silly install resolved        url: 'https://github.com/nex3' },
+35 silly install resolved     engines: { node: '>=8.9.0' },
+35 silly install resolved     dependencies: { chokidar: '>=2.0.0 <4.0.0' },
+35 silly install resolved     main: 'sass.dart.js',
+35 silly install resolved     bin: { sass: 'sass.js' },
+35 silly install resolved     keywords: [ 'style', 'scss', 'sass', 'preprocessor', 'css' ],
+35 silly install resolved     version: '1.25.0',
+35 silly install resolved     _id: 'sass@1.25.0',
+35 silly install resolved     _nodeVersion: '12.14.1',
+35 silly install resolved     _npmVersion: '6.13.4',
+35 silly install resolved     dist:
+35 silly install resolved      { integrity: 'sha512-uQMjye0Y70SEDGO56n0j91tauqS9E1BmpKHtiYNQScXDHeaE9uHwNEqQNFf4Bes/3DHMNinB6u79JsG10XWNyw==',
+35 silly install resolved        shasum: 'f8bd7dfbb39d6b0305e27704a8ebe637820693f3',
+35 silly install resolved        tarball: 'https://registry.npmjs.org/sass/-/sass-1.25.0.tgz',
+35 silly install resolved        fileCount: 4,
+35 silly install resolved        unpackedSize: 2339695,
+35 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeIkffCRA9TVsSAnZWagAAIsIQAItfMDAo+NrLJcnXWfvX\nhpnkl53FgE03/0e8aZPMVLu3b9LahRmY8xOrT2S5ALuEyA3EYroypJ8E5K4r\nx15HNawElnez1hoe8/pUoEddeFYMecG8+KQsMQTT1+uOeH2SJ/H7808lAeAT\nSjwvt2AB0ut4ME5ONn6vpCP7/pg7OjvKqxOLDYG9WLSWewO2GPVsYY5jQxX1\nfruKl5owPMJVVke07i99a2tNhj/EeWROXYZy58JSbON0/+glP+MH3JLmWRzX\nWq2TkSpsuWZSY3rzKfIkrZf+XQWi2uKooIuAktKMlvP7ZofzoTWkCvuTtEta\nYoaI7SpQyh3vRvaViHg1dvazCrYf18XUvtZkTs6z8H+a26Q3RZ3RtGLijCID\n/GERO/+GcXQUd3bTetYPejM838YPJmrzGnlMAb6p8ODYdBP7kWLRN2QkOMC9\nizjsF+6zdXj+oBhvYbCfbY6Ghc/a/yu8YBT+KMQfc+JSWu328QctDD5sKzUF\nDEfm0q5+33SWLG7mlp6Y8k6BfpyUGrvx93O+hh/MC2mMMKLqqYYgTTHf+Ouy\njX/7RqhhI2RHnEONittOmMGPS4MFcZbzf0ruaqPCc4mLA0wBsb2CIPdEppQe\nqwrXJiYSVv1+1GOCcETZ6Kx/+L8b6rpEwL90N3UEOGZQcq1S9A6HkbCe5j8L\np+Lj\r\n=MODb\r\n-----END PGP SIGNATURE-----\r\n' },
+35 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+35 silly install resolved     _npmUser: { name: 'sassbot', email: 'sass.bot.beep.boop@gmail.com' },
+35 silly install resolved     directories: {},
+35 silly install resolved     _npmOperationalInternal:
+35 silly install resolved      { host: 's3://npm-registry-packages',
+35 silly install resolved        tmp: 'tmp/sass_1.25.0_1579304926760_0.48504527097932804' },
+35 silly install resolved     _hasShrinkwrap: false,
+35 silly install resolved     _shasum: 'f8bd7dfbb39d6b0305e27704a8ebe637820693f3',
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/sass/-/sass-1.25.0.tgz',
+35 silly install resolved     _from: 'sass@latest',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install sass@1.25.0 into /usr/local/lib
+37 info installOne sass@1.25.0
+38 verbose installOne of sass to /usr/local/lib not in flight; installing
+39 verbose lock using /Users/tina/.npm/_locks/sass-ab169bacba62a57a.lock for /usr/local/lib/node_modules/sass
+40 silly install write writing sass 1.25.0 to /usr/local/lib/node_modules/sass
+41 verbose unbuild lib/node_modules/sass
+42 silly gentlyRm /usr/local/lib/node_modules/sass is being purged from base /usr/local
+43 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/sass
+44 verbose tar unpack /Users/tina/.npm/sass/1.25.0/package.tgz
+45 verbose tar unpacking to /usr/local/lib/node_modules/sass
+46 silly gentlyRm /usr/local/lib/node_modules/sass is being purged
+47 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/sass
+48 silly gunzTarPerm modes [ '755', '644' ]
+49 error tar.unpack untar error /Users/tina/.npm/sass/1.25.0/package.tgz
+50 verbose unlock done using /Users/tina/.npm/_locks/sass-ab169bacba62a57a.lock for /usr/local/lib/node_modules/sass
+51 verbose fstream_path /usr/local/lib/node_modules/sass
+52 verbose fstream_type Directory
+53 verbose fstream_class DirWriter
+54 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/sass'
+54 verbose stack     at Error (native)
+55 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+55 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+55 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+56 verbose cwd /Users/tina/web2_02_HsinTing
+57 error Darwin 16.7.0
+58 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "sass"
+59 error node v4.3.2
+60 error npm  v2.14.12
+61 error path /usr/local/lib/node_modules/sass
+62 error code EACCES
+63 error errno -13
+64 error syscall mkdir
+65 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/sass'
+65 error     at Error (native)
+65 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/sass']
+65 error   errno: -13,
+65 error   code: 'EACCES',
+65 error   syscall: 'mkdir',
+65 error   path: '/usr/local/lib/node_modules/sass',
+65 error   fstream_type: 'Directory',
+65 error   fstream_path: '/usr/local/lib/node_modules/sass',
+65 error   fstream_class: 'DirWriter',
+65 error   fstream_stack:
+65 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+65 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+65 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+66 error Please try running this command again as root/Administrator.
+67 verbose exit [ -13, true ]
+68 verbose unbuild lib/node_modules/sass
+69 silly gentlyRm /usr/local/lib/node_modules/sass is being purged from base /usr/local
+70 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/sass
